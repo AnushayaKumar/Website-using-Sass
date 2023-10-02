@@ -1,0 +1,414 @@
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-50 {
+  gap: 50px;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.f-shrink-0 {
+  flex-shrink: 0;
+}
+
+.pb-8 {
+  padding-bottom: 8px;
+}
+
+.pb-25 {
+  padding-bottom: 25px;
+}
+
+.p-100 {
+  padding: 100px;
+}
+
+.pb {
+  padding-bottom: 15px;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
+.t-align-center {
+  text-align: center;
+}
+
+.t-align-right {
+  text-align: right;
+}
+
+.t-align-left {
+  text-align: left;
+}
+
+.t-color-white-200 {
+  color: #fefefe;
+}
+
+.t-color-black-100 {
+  color: #393939;
+}
+
+.t-color-blue {
+  color: #04e2ff;
+}
+
+.bg-color-gray-100 {
+  background-color: #efefef;
+}
+
+.weight-bold {
+  font-weight: bold;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+.vertical-align-15 {
+  vertical-align: 15px;
+}
+
+body {
+  width: 1232px;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+p,
+a {
+  font-size: 16px;
+}
+
+.heading-container {
+  background-color: #ffd500;
+  padding: 10px 50px;
+}
+.heading-container section {
+  padding: 130px 0;
+  color: #393939;
+  position: relative;
+}
+.heading-container section h4 {
+  padding-bottom: 100px;
+}
+.heading-container section img {
+  position: absolute;
+  top: 220px;
+  left: 20px;
+}
+
+.heading-container header a {
+  color: #393939;
+}
+.heading-container header img + a {
+  font-size: 30px;
+  padding-left: 5px;
+}
+.heading-container header nav a {
+  padding-left: 30px;
+}
+.heading-container header .search-bar,
+.heading-container header input {
+  height: 45px;
+  border: none;
+  background-color: #edc500;
+}
+.heading-container header .search-bar {
+  width: 350px;
+  border-radius: 3px;
+}
+.heading-container header input {
+  width: 300px;
+  padding: 0 10px;
+  color: #eeeeee;
+}
+.heading-container header input::placeholder {
+  color: #eeeeee;
+}
+.heading-container header input:focus {
+  outline: none;
+}
+.heading-container header .search-bar img {
+  border-right: 2px solid rgba(201, 172, 172, 0.5019607843);
+  padding: 0 10px;
+}
+.heading-container header button {
+  margin-left: 10px;
+}
+
+.about-cognitive {
+  background-color: #9e30ff;
+  margin: 0;
+}
+.about-cognitive p {
+  width: 550px;
+}
+
+.about-video {
+  width: 400px;
+  height: 220px;
+  padding: 15px;
+  background-color: #393939;
+  position: relative;
+}
+.about-video p {
+  font-weight: 500;
+  width: auto;
+}
+.about-video li:nth-last-of-type(1) {
+  padding: 2px 4px;
+  border: 2px solid #fefefe;
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  left: 160px;
+  cursor: pointer;
+}
+
+.accomplishments {
+  background-color: #393939;
+  color: #eeeeee;
+}
+
+.community {
+  padding-top: 50px;
+  color: #393939;
+}
+.community h2 {
+  padding-bottom: 50px;
+}
+.community-img {
+  width: 300px;
+  height: 250px;
+  background-color: #ababab;
+}
+
+.community-cards ul {
+  width: 300px;
+}
+.community-cards ul li:nth-last-of-type(n) {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #ababab;
+  color: #393939;
+}
+
+.projects {
+  padding: 50px 100px;
+  background-color: #393939;
+}
+.projects h2 {
+  padding-bottom: 30px;
+}
+.projects nav .active,
+.projects nav a:hover {
+  color: #edc500;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #edc500;
+}
+.projects ul {
+  padding: 50px 0;
+}
+.projects li {
+  background-color: #edc500;
+  width: 300px;
+  padding: 15px;
+}
+
+.forum {
+  padding: 50px 100px;
+}
+.forum h2 {
+  padding-bottom: 50px;
+}
+.forum table {
+  width: 1030px;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+}
+.forum table td,
+.forum table th {
+  border: 1px solid #dedede;
+  padding: 20px 10px;
+}
+.forum table img {
+  padding-right: 10px;
+  vertical-align: -2px;
+}
+
+.blog-event {
+  padding: 50px 100px;
+  background-color: #0bbba1;
+}
+.blog-event ul {
+  padding-top: 50px;
+}
+.blog-event ul li:nth-of-type(1) {
+  width: 250px;
+  height: 250px;
+  background-color: #068773;
+}
+.blog-event ul li {
+  width: 750px;
+}
+.blog-event ul li p:nth-of-type(1) {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #eeeeee;
+  color: #0bbba1;
+  margin-bottom: 5px;
+}
+
+.quick-start {
+  background-color: #393939;
+  padding: 50px 100px;
+}
+
+footer {
+  padding: 40px;
+}
+footer a {
+  padding-right: 20px;
+}
+footer ul a {
+  text-decoration: underline;
+}
+
+button {
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.hero button, header button {
+  background-color: #ffd500;
+  color: #393939;
+  border: 2px solid #393939;
+}
+.hero button:hover, header button:hover {
+  background-color: #393939;
+  color: #ffd500;
+  border: 2px solid #ffd500;
+}
+.about-cognitive button {
+  background-color: #9e30ff;
+  color: #fefefe;
+  border: 2px solid #fefefe;
+}
+.about-cognitive button:hover {
+  background-color: #fefefe;
+  color: #9e30ff;
+  border: 2px solid #9e30ff;
+}
+.projects button {
+  background-color: #393939;
+  color: #eeeeee;
+  border: 2px solid #eeeeee;
+}
+.projects button:hover {
+  background-color: #eeeeee;
+  color: #393939;
+  border: 2px solid #393939;
+}
+.forum button {
+  background-color: #fff;
+  color: #393939;
+  border: 2px solid #393939;
+}
+.forum button:hover {
+  background-color: #393939;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.blog-event button {
+  margin: 100px 20px 0 0;
+  background-color: #0bbba1;
+  color: #fefefe;
+  border: 2px solid #fefefe;
+}
+.blog-event button:hover {
+  background-color: #fefefe;
+  color: #0bbba1;
+  border: 2px solid #0bbba1;
+}
+.quick-start button {
+  background-color: #393939;
+  color: #fefefe;
+  border: 2px solid #fefefe;
+  margin-top: 20px;
+}
+.quick-start button:hover {
+  background-color: #fefefe;
+  color: #393939;
+  border: 2px solid #393939;
+}
+
+/*# sourceMappingURL=main.css.map */

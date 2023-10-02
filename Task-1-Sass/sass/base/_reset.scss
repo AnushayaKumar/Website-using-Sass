@@ -1,0 +1,18 @@
+* {
+    // reset
+    margin: 0;
+    padding: 0;
+
+    // normalise
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+// resetting list and anchor to none.
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

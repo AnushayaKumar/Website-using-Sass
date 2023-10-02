@@ -1,0 +1,49 @@
+.heading-container header {
+    a {
+        color: $black-100;
+    }
+
+    img+a {
+        font-size: $h3;
+        padding-left: 5px;
+    }
+
+    nav a {
+        padding-left: 30px;
+    }
+
+    .search-bar,
+    input {
+        height: 45px;
+        border: none;
+        background-color: $yellow-100;
+    }
+
+    .search-bar {
+        width: 350px;
+        border-radius: 3px;
+    }
+
+    input {
+        width: 300px;
+        padding: 0 10px;
+        color: $white-100;
+
+        &::placeholder {
+            color: $white-100;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .search-bar img {
+        border-right: 2px solid #c9acac80;
+        padding: 0 10px;
+    }
+
+    button {
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,25 @@
+.community {
+    padding-top: 50px;
+    color: $black-100;
+
+    h2 {
+        padding-bottom: 50px;
+    }
+
+    &-img {
+        width: 300px;
+        height: 250px;
+        background-color: $gray;
+    }
+}
+
+.community-cards ul {
+    width: 300px;
+
+    li:nth-last-of-type(n) {
+        width: 300px;
+        padding: 15px;
+        border: 1px solid $gray;
+        color: $black-100;
+    }
+}

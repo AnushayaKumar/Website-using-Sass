@@ -1,0 +1,110 @@
+// flex
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.f-shrink-0 {
+    flex-shrink: 0;
+}
+
+// padding
+.pb-8 {
+    padding-bottom: 8px;
+}
+
+.pb-25 {
+    padding-bottom: 25px;
+}
+
+.p-100 {
+    padding: 100px;
+}
+
+.pb {
+    padding-bottom: 15px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+// typography{
+.t-align-center {
+    text-align: center;
+}
+
+.t-align-right {
+    text-align: right;
+}
+
+.t-align-left {
+    text-align: left;
+}
+
+// typography color
+.t-color-white-200 {
+    color: $white-200;
+}
+
+.t-color-black-100 {
+    color: $black-100;
+}
+
+.t-color-blue {
+    color: $blue;
+}
+
+.bg-color-gray-100 {
+    background-color: $gray-100;
+}
+
+// font-weight
+.weight-bold {
+    font-weight: bold;
+}
+
+// list-styles
+.list-style-none {
+    list-style: none;
+}
+
+// vertical-align
+.vertical-align-middle {
+    vertical-align: middle;
+}
+
+.vertical-align-15 {
+    vertical-align: 15px;
+}
+
+// body
+body {
+    width: 1232px;
+    scroll-behavior: smooth;
+    font-family: $font-family;
+
+    margin: {
+        left: auto;
+        right: auto;
+    }
+}

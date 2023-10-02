@@ -1,0 +1,32 @@
+button {
+    font-size: $p;
+    cursor: pointer;
+    padding: 10px 20px;
+
+    .hero &,
+    header & {
+        @include button($yellow, $black-100);
+    }
+
+    .about-cognitive & {
+        @include button($purple, $white-200)
+    }
+
+    .projects & {
+        @include button($black-100, $white-100);
+    }
+
+    .forum & {
+        @include button($white, $black-100);
+    }
+
+    .blog-event & {
+        margin: 100px 20px 0 0;
+        @include button($green, $white-200);
+    }
+
+    .quick-start & {
+        @include button($black-100, $white-200);
+        margin-top: 20px;
+    }
+}

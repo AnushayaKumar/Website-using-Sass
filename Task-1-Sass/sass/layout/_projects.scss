@@ -1,0 +1,30 @@
+.projects {
+    padding: 50px 100px;
+    background-color: $black-100;
+
+    h2 {
+        padding-bottom: 30px;
+    }
+
+    nav {
+
+        .active,
+        a:hover {
+            color: $yellow-100;
+            padding-bottom: 5px;
+            border-bottom: 2px solid $yellow-100;
+        }
+    }
+
+    ul {
+        padding: 50px 0;
+    }
+
+    li {
+        background-color: $yellow-100;
+        width: 300px;
+        padding: 15px;
+    }
+
+
+}
